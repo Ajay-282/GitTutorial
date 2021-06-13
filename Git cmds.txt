@@ -1,0 +1,28 @@
+git log
+git commit
+git init
+git add --a
+git diff
+git diff --staged
+git add .
+git commit -m " "
+git commit -a -m " "
+git rm filename (removes file)
+git mv prevfilenmane newfilename  (rename)
+git rm --cached filename (it untracks the file even explicit tracking is untracked)
+rm -rf .git(removes status of git repository)
+git clone url filename
+
+git log -p -1or -1 -3(shows changes ana all deletion in git commit)
+git log --stat (breif description of commit changes)
+git log --preety=oneline(all commit in line form)
+git log --preety=short
+git log --preety=full
+git log --since=2/7/9.days/weeks/month/year
+git log --preety=format:
+git checkout -- filename (restores to prev  version)
+git checkout -f
+
+git remote
+ git push -u origin master
+git config --global alias.st status (making shortcur st for status) 
